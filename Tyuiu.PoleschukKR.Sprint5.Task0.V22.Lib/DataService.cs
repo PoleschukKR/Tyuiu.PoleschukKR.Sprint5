@@ -16,7 +16,7 @@ namespace Tyuiu.PoleschukKR.Sprint5.Task0.V22.Lib
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
             double res = (Math.Pow(1 - x, 2)) / (-3 * x);
-            res = Math.Round(res, 3);
+            res = Math.Round(res,3);
             File.WriteAllText(path, Convert.ToString(res));
             return path;
 
