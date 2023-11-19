@@ -44,11 +44,11 @@ namespace Tyuiu.PoleschukKR.Sprint5.Task2.V15.Lib
                 {
                     if (j != columns - 1)
                     {
-                        str = str + matrix[i, j] + ";";
+                        str = str + matrix[i,j] + ";";
                     }
                     else
                     {
-                        str = str + matrix[i, j];
+                        str = str + matrix[i,j];
                     }
                 }
                 if (i != rows - 1)
