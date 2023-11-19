@@ -29,7 +29,7 @@ namespace Tyuiu.PoleschukKR.Sprint5.Task1.V15.Lib
                 y = ((Math.Cos(x)) / (x - 0.4)) + Math.Sin(x) * 8 * x + 2;
                 y = Math.Round(y, 2);
                 strY = Convert.ToString(y);
-                if (y == 0)
+                if (y==0)
                 {
                     y = 0;
                 }
