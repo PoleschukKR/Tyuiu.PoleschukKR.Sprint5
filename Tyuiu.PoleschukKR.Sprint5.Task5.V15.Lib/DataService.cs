@@ -13,17 +13,20 @@ namespace Tyuiu.PoleschukKR.Sprint5.Task5.V15.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            double res = 0;
+            
             StreamReader reader = new StreamReader(path);
-
+            
+            double res = 99999999;
             string line;
             double x;
             while ((line = reader.ReadLine()) != null)
             {
+                
                 x = Convert.ToDouble(line);
                 if (x % 5 == 0 && x < res)
                 {
                     res = x;
+                    
                 }
            
             }
