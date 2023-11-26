@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Tyuiu.PoleschukKR.Sprint5.Task7.V9.Lib;
+using System.IO;
 
 namespace Tyuiu.PoleschukKR.Sprint5.Task7.V9
 {
@@ -32,7 +33,8 @@ namespace Tyuiu.PoleschukKR.Sprint5.Task7.V9
             Console.WriteLine("***************************************************************************");
 
             string path = @"C:\DataSprint5\InPutDataFileTask7V9.txt";
-            string pathSaveFile = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint5\Tyuiu.PoleschukKR.Sprint5.Task7.V9\bin\Debug";
+
+            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V9.txt";
 
             Console.WriteLine("****************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                           *");
